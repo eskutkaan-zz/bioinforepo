@@ -36,16 +36,16 @@ Please give a list of relationships, indicting if they are _equivalence_, _order
 
 1.  What is the difference between the _Hamming_ distance and _Edit_ distance?
 ```
-ANSWER
+The Hamming distance is the number of differences of the same length sequences but the Edit distance can be applied to the different length sequences to obtain distance scores according to insertions, deletions and subtitutions.
 ```
 
 2.  Show that the relationship “distance between _x_ and _y_ is zero” is an equivalence relationship
 ```
-ANSWER
+We can show the distance between x and y is zero by the Hamming distance calculation is zero. Because in order to get a zero score in Hamming, they should be same length of sequences. 
 ```
 3.  Show that the relationship “distance between _x_ and _y_ is small” is _not_ an equivalence relationship
 ```
-ANSWER
+We can not show the distance between x and y is small by the Hamming distance. Because the Hamming distance can not have minus values. We need to use the Edit distance to show that distance between x and y is small by scoring gaps and mismatches.
 ```
 
 # Alignment
