@@ -1,0 +1,73 @@
+---
+title: "Homework3"
+author: "Reyhan AYDIN"
+date: "30 Ekim 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Relationships
+
+One important concept in bioinformatics, and in science in general, is the idea of a relationship. That is, a rule ⧋ that takes two objects, _x_ and _y_, and gives back a _True_ or _False_ answer, represented by _x⧋y_. For example, some relationships are:
+
+*   _x_ is greater than _y_
+*   _x_ is the double of _y_
+*   _x_ is the father of _y_
+*   _x_ is classmate of _y_
+*   _x_ is on the same taxonomic genus as _y_
+
+If a relationship ⧋ is _reflexive_, _symmetrical_ and _transitive_, then we say that ⧋ is an _equivalence relationship_. That is
+
+*   **Reflexivity:** For all _x_, _x⧋x_ is True.
+*   **Symmetry:** For all _x_ and all _y_, _x⧋y_ is the same as _y⧋x_
+*   **Transitivity:** For all _x_, _y_ and _z_, if _x⧋y_ and _y⧋z_, then _x⧋z_
+
+On the other hand, if the relationship is not symmetrical, and instead it is _anti-symmetrical_, then we say that ⧋ is an _order relationship_. That is
+
+*   **Symmetry:** For all _x_ and all _y_, if _x⧋y_ is true, and _y⧋x_ is true, then _x=y_, that is _x_ and _y_ are the same.
+
+Please give a list of relationships, indicting if they are _equivalence_, _order_ or not. The goal of this question is to enhance your observation skills, so we aim for _quantity_ and _originality_. The score of the answer will be the number of relationships that are reported by only one person.
+
+
+# Distances
+
+1.  What is the difference between the _Hamming_ distance and _Edit_ distance?
+```
+ANSWER
+```
+
+2.  Show that the relationship “distance between _x_ and _y_ is zero” is an equivalence relationship
+3.  Show that the relationship “distance between _x_ and _y_ is small” is _not_ an equivalence relationship
+
+
+# Alignment
+
+1.  What is the difference between _global_ and _local_ alignment?
+2.  What is the difference between _semi-global_ and _local_ alignment?
+3.  What is the ideal use case for _global alignment_?
+4.  What is the ideal use case for _semi-global alignment_?
+5.  What is the ideal use case for _local alignment_?
+6.  Two bacterial strains of the same species have the same genes but they may be in different order. How would you test this hypothesis?
+7.  How can you calculate the percentage of nucleotides conserved between the same two bacterial strains of the previous question?
+
+
+# Scoring
+
+1.  What is the role of λ in the scoring of alignments?
+2.  In DNA, why the _match_ score is positive, and _mismatch_ score is negative?
+3.  In proteins, why some substitution scores are positive and others are negative? What is the biological interpretation of positive scores?
+4.  Why gap score have two parts: existence and extension?
+5.  Why we need that the gap score be lower than the substitution score?
+
+
+# Computational cost
+
+1.  What is _computational cost_?
+2.  What is the computational cost of the Smith-Waterman algorithm?
+3.  What is an _heuristic_?
+4.  What is the strategy that BLAST uses to speed up the local alignment?
+5.  What is the trade-off of the _word size_ parameter in BLAST?
+
