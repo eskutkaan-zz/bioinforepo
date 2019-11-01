@@ -1,6 +1,6 @@
 ---
 title: "Homework3"
-author: "Reyhan AYDIN"
+author: "Reyhan AYDIN - Kaan Ihsan Eskut"
 date: "30 Ekim 2019"
 output: html_document
 ---
