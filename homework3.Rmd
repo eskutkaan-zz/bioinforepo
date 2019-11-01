@@ -72,11 +72,11 @@ he ideal use of case is to find all possible alignments having the highest score
 ```
 6.  Two bacterial strains of the same species have the same genes but they may be in different order. How would you test this hypothesis?
 ```
-ANSWER
+In order to find the conserved genes in different strains, we prefer to use local aligment because the genome structure and size of strains may be different than each other and we need to find highest level of similarities in local regions.
 ```
 7.  How can you calculate the percentage of nucleotides conserved between the same two bacterial strains of the previous question?
 ```
-ANSWER
+According to the aligned regions' scores , we can determine the percentage of conserved nucleotides between two strains. 
 ```
 
 # Scoring
