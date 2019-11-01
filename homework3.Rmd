@@ -52,23 +52,23 @@ We can not show the distance between x and y is small by the Hamming distance. B
 
 1.  What is the difference between _global_ and _local_ alignment?
 ```
-ANSWER
+Global alignment is an attempt to align end to end whole sequences but local alignment is finding local regions with the highest level of similarity between two sequences.
 ```
 2.  What is the difference between _semi-global_ and _local_ alignment?
 ```
-ANSWER
+Semi global alignment is a modification of global alignment that allows to make the gaps penalty-free on end or/and beginning of the sequences but the local alignment is finding local regions with the highest level of similarity between two sequences.
 ```
 3.  What is the ideal use case for _global alignment_?
 ```
-ANSWER
+The ideal use of case is to find all possible alignments having the highest score in end to end alignments.
 ```
 4.  What is the ideal use case for _semi-global alignment_?
 ```
-ANSWER
+The ideal use of case is to find all possible alignments having the highest score in end to end alignments including making the gaps penalty-free.
 ```
 5.  What is the ideal use case for _local alignment_?
 ```
-ANSWER
+he ideal use of case is to find all possible alignments having the highest score in the local regions that have highest level of similarity between two sequences.
 ```
 6.  Two bacterial strains of the same species have the same genes but they may be in different order. How would you test this hypothesis?
 ```
