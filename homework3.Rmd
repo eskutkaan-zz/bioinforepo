@@ -83,7 +83,7 @@ According to the aligned regions' scores , we can determine the percentage of co
 
 1.  What is the role of λ in the scoring of alignments?
 ```
-ANSWER
+The role of lambda is normalizing the scoring of alignments, it provides talking in same language.
 ```
 2.  In DNA, why the _match_ score is positive, and _mismatch_ score is negative?
 ```
@@ -95,11 +95,11 @@ ANSWER
 ```
 4.  Why gap score have two parts: existence and extension?
 ```
-ANSWER
+According to evolutionary meanings genomic molecules are transporting as in parts, in order to determine scores according to this condition, they have to cost different than each other.
 ```
 5.  Why we need that the gap score be lower than the substitution score?
 ```
-ANSWER
+According to biological causes, gap is more abudant in evolutionary progress, mutations on nucleotides(substitutions) are more expensive than gaps for use to score.
 ```
 
 # Computational cost
