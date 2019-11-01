@@ -95,7 +95,7 @@ ANSWER
 ```
 4.  Why gap score have two parts: existence and extension?
 ```
-According to evolutionary meanings genomic molecules are transporting as in parts, in order to determine scores according to this condition, they have to cost different than each other.
+According to evolutionary meanings genomic molecules are transporting as in parts, in order to determine scores according to this condition, they have to cost different than each other,so existence gaps are more expensive than extensive gaps for scoring.
 ```
 5.  Why we need that the gap score be lower than the substitution score?
 ```
