@@ -87,7 +87,7 @@ ANSWER
 ```
 2.  In DNA, why the _match_ score is positive, and _mismatch_ score is negative?
 ```
-ANSWER
+Matching is what we want and positive effect for our scores but mismatch is expensive and negative effect for our scores because matching presents similarity, mismatch presents unsimilarity.
 ```
 3.  In proteins, why some substitution scores are positive and others are negative? What is the biological interpretation of positive scores?
 ```
