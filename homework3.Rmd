@@ -118,7 +118,7 @@ It is a technique designed for solving a problem more quickly when classic metho
 ```
 4.  What is the strategy that BLAST uses to speed up the local alignment?
 ```
-ANSWER
+BLAST uses heuristics to produce results quickly.
 ```
 5.  What is the trade-off of the _word size_ parameter in BLAST?
 ```
