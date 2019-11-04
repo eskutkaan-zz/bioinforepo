@@ -106,7 +106,7 @@ According to biological causes, gap is more abudant in evolutionary progress, mu
 
 1.  What is _computational cost_?
 ```
-ANSWER
+Computational cost is a concept that focuses on the amount of computing resources needed for particular kinds of tasks.
 ```
 2.  What is the computational cost of the Smith-Waterman algorithm?
 ```
@@ -114,7 +114,7 @@ ANSWER
 ```
 3.  What is an _heuristic_?
 ```
-ANSWER
+It is a technique designed for solving a problem more quickly when classic methods are too slow, or for finding an approximate solution when classic methods fail to find any exact solution.
 ```
 4.  What is the strategy that BLAST uses to speed up the local alignment?
 ```
