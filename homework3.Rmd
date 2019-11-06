@@ -91,7 +91,7 @@ Matching is what we want and positive effect for our scores but mismatch is expe
 ```
 3.  In proteins, why some substitution scores are positive and others are negative? What is the biological interpretation of positive scores?
 ```
-ANSWER
+Positive scores indicate that the given amino acid substitution occurs more frequently in the alignment than expected by chance, while negative scores indicate that the substitution occurs less frequently than expected.
 ```
 4.  Why gap score have two parts: existence and extension?
 ```
