@@ -122,5 +122,5 @@ BLAST uses heuristics to produce results quickly.
 ```
 5.  What is the trade-off of the _word size_ parameter in BLAST?
 ```
-ANSWER
+This search strategy offers a tradeoff between speed and sensitivity; smaller word-sizes result in greater sensitivity at the expense of speed while larger word-sizes optimize BLAST for speed.
 ```
