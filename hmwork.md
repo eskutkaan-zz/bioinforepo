@@ -1,115 +1,195 @@
-# Relationships
+#  Relationships
 
 One important concept in bioinformatics, and in science in general, is the idea of a relationship. That is, a rule ⧋ that takes two objects, _x_ and _y_, and gives back a _True_ or _False_ answer, represented by _x⧋y_. For example, some relationships are:
 
-*   _x_ is greater than _y_
-*   _x_ is the double of _y_
-*   _x_ is the father of _y_
-*   _x_ is classmate of _y_
-*   _x_ is on the same taxonomic genus as _y_
+* _x_ is greater than _y_
+
+* _x_ is the double of _y_
+
+* _x_ is the father of _y_
+
+* _x_ is classmate of _y_
+
+* _x_ is on the same taxonomic genus as _y_
 
 If a relationship ⧋ is _reflexive_, _symmetrical_ and _transitive_, then we say that ⧋ is an _equivalence relationship_. That is
 
-*   **Reflexivity:** For all _x_, _x⧋x_ is True.
-*   **Symmetry:** For all _x_ and all _y_, _x⧋y_ is the same as _y⧋x_
-*   **Transitivity:** For all _x_, _y_ and _z_, if _x⧋y_ and _y⧋z_, then _x⧋z_
+* **Reflexivity:** For all _x_, _x⧋x_ is True.
+
+* **Symmetry:** For all _x_ and all _y_, _x⧋y_ is the same as _y⧋x_
+
+* **Transitivity:** For all _x_, _y_ and _z_, if _x⧋y_ and _y⧋z_, then _x⧋z_
 
 On the other hand, if the relationship is not symmetrical, and instead it is _anti-symmetrical_, then we say that ⧋ is an _order relationship_. That is
 
-*   **Symmetry:** For all _x_ and all _y_, if _x⧋y_ is true, and _y⧋x_ is true, then _x=y_, that is _x_ and _y_ are the same.
+* **Symmetry:** For all _x_ and all _y_, if _x⧋y_ is true, and _y⧋x_ is true, then _x=y_, that is _x_ and _y_ are the same.
 
 Please give a list of relationships, indicting if they are _equivalence_, _order_ or not. The goal of this question is to enhance your observation skills, so we aim for _quantity_ and _originality_. The score of the answer will be the number of relationships that are reported by only one person.
 
+#  Distances
 
-# Distances
+1. What is the difference between the _Hamming_ distance and _Edit_ distance?
 
-1.  What is the difference between the _Hamming_ distance and _Edit_ distance?
-```
+---
+
 The Hamming distance is the number of differences of the same length sequences but the Edit distance can be applied to the different length sequences to obtain distance scores according to insertions, deletions and subtitutions.
-```
 
-2.  Show that the relationship “distance between _x_ and _y_ is zero” is an equivalence relationship
-```
-We can show the distance between x and y is zero by the Hamming distance calculation is zero. Because in order to get a zero score in Hamming, they should be same length of sequences. 
-```
-3.  Show that the relationship “distance between _x_ and _y_ is small” is _not_ an equivalence relationship
-```
-We can not show the distance between x and y is small by the Hamming distance. Because the Hamming distance can not have minus values. We need to use the Edit distance to show that distance between x and y is small by scoring gaps and mismatches.
-```
+---
 
-# Alignment
+2. Show that the relationship “distance between _x_ and _y_ is zero” is an equivalence relationship
 
-1.  What is the difference between _global_ and _local_ alignment?
-```
+---
+
+We can show the distance between x and y is zero by the Hamming distance calculation is zero. Because in order to get a zero score in Hamming, they should be same length of sequences.
+
+---
+
+3. Show that the relationship “distance between _x_ and _y_ is small” is _not_ an equivalence relationship
+
+---
+
+We can not show the distance between x and y is small by the Hamming distance. Because the Hamming distance can not have minus values. We need to use the Edit distance to show that distance between x and y is small by scoring gaps and mismatches
+
+---
+
+#  Alignment
+
+1. What is the difference between _global_ and _local_ alignment?
+
+---
+
 Global alignment is an attempt to align end to end whole sequences but local alignment is finding local regions with the highest level of similarity between two sequences.
-```
-2.  What is the difference between _semi-global_ and _local_ alignment?
-```
+
+---
+
+2. What is the difference between _semi-global_ and _local_ alignment?
+
+---
+
 Semi global alignment is a modification of global alignment that allows to make the gaps penalty-free on end or/and beginning of the sequences but the local alignment is finding local regions with the highest level of similarity between two sequences.
-```
-3.  What is the ideal use case for _global alignment_?
-```
+
+---
+
+3. What is the ideal use case for _global alignment_?
+
+---
+
 The ideal use of case is to find all possible alignments having the highest score in end to end alignments.
-```
-4.  What is the ideal use case for _semi-global alignment_?
-```
+
+---
+
+4. What is the ideal use case for _semi-global alignment_?
+
+---
+
 The ideal use of case is to find all possible alignments having the highest score in end to end alignments including making the gaps penalty-free.
-```
-5.  What is the ideal use case for _local alignment_?
-```
+
+---
+
+5. What is the ideal use case for _local alignment_?
+
+---
+
 he ideal use of case is to find all possible alignments having the highest score in the local regions that have highest level of similarity between two sequences.
-```
-6.  Two bacterial strains of the same species have the same genes but they may be in different order. How would you test this hypothesis?
-```
+
+---
+
+6. Two bacterial strains of the same species have the same genes but they may be in different order. How would you test this hypothesis?
+
+---
+
 In order to find the conserved genes in different strains, we prefer to use local aligment because the genome structure and size of strains may be different than each other and we need to find highest level of similarities in local regions.
-```
-7.  How can you calculate the percentage of nucleotides conserved between the same two bacterial strains of the previous question?
-```
-According to the aligned regions' scores , we can determine the percentage of conserved nucleotides between two strains. 
-```
 
-# Scoring
+---
 
-1.  What is the role of λ in the scoring of alignments?
-```
+7. How can you calculate the percentage of nucleotides conserved between the same two bacterial strains of the previous question?
+
+---
+
+According to the aligned regions' scores , we can determine the percentage of conserved nucleotides between two strains.
+
+---
+
+#  Scoring
+
+1. What is the role of λ in the scoring of alignments?
+
+---
+
 The role of lambda is normalizing the scoring of alignments, it provides talking in same language.
-```
-2.  In DNA, why the _match_ score is positive, and _mismatch_ score is negative?
-```
+
+---
+
+2. In DNA, why the _match_ score is positive, and _mismatch_ score is negative?
+
+---
+
 Matching is what we want and positive effect for our scores but mismatch is expensive and negative effect for our scores because matching presents similarity, mismatch presents unsimilarity.
-```
-3.  In proteins, why some substitution scores are positive and others are negative? What is the biological interpretation of positive scores?
-```
+
+---
+
+3. In proteins, why some substitution scores are positive and others are negative? What is the biological interpretation of positive scores?
+
+---
+
 Positive scores indicate that the given amino acid substitution occurs more frequently in the alignment than expected by chance, while negative scores indicate that the substitution occurs less frequently than expected.
-```
-4.  Why gap score have two parts: existence and extension?
-```
+
+---
+
+4. Why gap score have two parts: existence and extension?
+
+---
+
 According to evolutionary meanings genomic molecules are transporting as in parts, in order to determine scores according to this condition, they have to cost different than each other,so existence gaps are more expensive than extensive gaps for scoring.
-```
-5.  Why we need that the gap score be lower than the substitution score?
-```
+
+---
+
+5. Why we need that the gap score be lower than the substitution score?
+
+---
+
 According to biological causes, gap is more abudant in evolutionary progress, mutations on nucleotides(substitutions) are more expensive than gaps for use to score.
-```
 
-# Computational cost
+---
 
-1.  What is _computational cost_?
-```
+#  Computational cost
+
+1. What is _computational cost_?
+
+---
+
 Computational cost is a concept that focuses on the amount of computing resources needed for particular kinds of tasks. The resource usage that depends on the input size.
-```
-2.  What is the computational cost of the Smith-Waterman algorithm?
-```
+
+---
+
+2. What is the computational cost of the Smith-Waterman algorithm?
+
+---
+
 The algorithm compares two sequences by computing the similarity score by means of dynamic programming.
-```
-3.  What is an _heuristic_?
-```
+
+---
+
+3. What is an _heuristic_?
+
+---
+
 It is a technique designed for solving a problem more quickly when classic methods are too slow, or for finding an approximate solution when classic methods fail to find any exact solution.
-```
-4.  What is the strategy that BLAST uses to speed up the local alignment?
-```
+
+---
+
+4. What is the strategy that BLAST uses to speed up the local alignment?
+
+---
+
 BLAST uses heuristics to produce results quickly.
-```
-5.  What is the trade-off of the _word size_ parameter in BLAST?
-```
+
+---
+
+5. What is the trade-off of the _word size_ parameter in BLAST?
+
+---
+
 This search strategy offers a tradeoff between speed and sensitivity; smaller word-sizes result in greater sensitivity at the expense of speed while larger word-sizes optimize BLAST for speed.
-```
+
+---
