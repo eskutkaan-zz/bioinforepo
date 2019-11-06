@@ -106,7 +106,7 @@ According to biological causes, gap is more abudant in evolutionary progress, mu
 
 1.  What is _computational cost_?
 ```
-Computational cost is a concept that focuses on the amount of computing resources needed for particular kinds of tasks.
+Computational cost is a concept that focuses on the amount of computing resources needed for particular kinds of tasks. The resource usage that depends on the input size.
 ```
 2.  What is the computational cost of the Smith-Waterman algorithm?
 ```
