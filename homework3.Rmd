@@ -110,7 +110,7 @@ Computational cost is a concept that focuses on the amount of computing resource
 ```
 2.  What is the computational cost of the Smith-Waterman algorithm?
 ```
-ANSWER
+The algorithm compares two sequences by computing the similarity score by means of dynamic programming.
 ```
 3.  What is an _heuristic_?
 ```
